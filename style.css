@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color:rgb(241, 128, 87);
+    color:rgb(93, 40, 129);
+}
+
+header{
+    border-bottom: solid 0.5px rgb(241, 128, 87);
+}
+
+.nav-image{
+    width: 30px;
+    height: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(93, 40, 129);
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 15px 20px;
+}
+
+#Home{
+    width: 100%;
+    height: 500px;
+    background: no-repeat center/cover;
+    background-image: url("ai-generated-8243423_1280.webp");
+}
+
+#Home h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 200px;
+    color:rgb(241, 128, 87);
+}
+
+#Home button{    
+    background-color:  rgba(93, 40, 129, 0.89);
+    color:rgb(241, 128, 87);
+    padding: 10px 20px;
+    border: solid 1px  rgba(94, 40, 129, 0.562);
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.Title{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Menu-image{
+    width: 100%; 
+    border-radius: 150px; 
+}
+
+.Menu-h1{
+    margin: 5px 0;
+    text-align: center;
+}
+
+.Menu-p{
+    padding: 0 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.Menu-price{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.About-us1 p{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.About-us2 img{
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 150px;
+}
+
+.contact{
+    margin: 20px 20px 50px 20px ;
+}
+
+form{
+    text-align: center;
+    padding: 30px 0;
+    background-color: rgb(93, 40, 129);
+    color:rgb(241, 128, 87);
+    border-radius: 30px;
+}
+
+form label{
+    font-size: 15px;
+}
+
+form input{
+    padding: 10px 35px;
+    background: transparent;
+    border: solid 1px;
+    color:rgb(241, 128, 87);
+    margin: 10px 0;
+}
+
+textarea{
+    background: transparent;
+    border: solid 1px ;
+    color:rgb(241, 128, 87);
+}
+
+.Send{
+    background-color:rgb(241, 128, 87);
+    color: rgb(93, 40, 129);
+    border-radius: 30px;
+}
+
+footer{
+    background-color: rgb(62, 17, 92);
+    color: rgb(241, 128, 87);
+    height: 700px;
+}
+
+.footer1{
+    font-size: 15px;
+    padding: 50px 0 50px 30px;
+}
+
+.footer2{
+    font-size: 12px;
+    padding: 0 0 0 30px;
+}
+
+.footer3{
+    font-size: 12px;
+    padding: 0 0 0 30px;
+}
+
+.footer4{
+    font-size: 12px;
+    padding: 0 0 0 30px;
+}
+
+.footer2 a{
+    text-decoration: none;
+    color: rgb(241, 128, 87);
+}
+
+.footer2 li{
+    list-style: none;
+    padding: 4px 0;
+}
+
+.footer2 ul{
+    padding: 20px 0 20px 0;
+}
+
+.footer3 a{
+    text-decoration: none;
+    color: rgb(241, 128, 87);
+}
+
+.footer3 li{
+    list-style: none;
+    padding: 4px 0;
+}
+
+.footer3 ul{
+    padding: 20px 0 20px 0;
+}
+
+.footer4 a{
+    text-decoration: none;
+    color: rgb(241, 128, 87);
+}
+
+.footer4 li{
+    list-style: none;
+    padding: 4px 0;
+}
+
+.footer4 ul{
+    padding: 20px 0  0;
+}
+
+.foot2{
+    margin: 30px 0 30px 30px;
+}
+
+.foot2 ul{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.foot2 li{
+    list-style: none;
+    padding-right: 20px;
+}
+
+.foot2 p{
+    font-size: 12px;
+    padding: 0 100px 0 0;
+}
+
+@media only screen and (min-width: 768px){
+
+    .nav-image{
+        width: 50px;
+        height: 50px;
+    }
+
+    nav a{
+        font-size: 15px;
+        padding-left: 50px;
+    }
+
+    nav{
+        margin: 20px 40px;
+    }
+
+    #Home{
+        height: 1000px;
+    }
+
+    #Home h1{
+        font-size: 100px;
+        padding-top: 400px;
+    }
+
+    #Home button{
+        padding: 20px 40px;
+        margin-top: 30px;
+        margin-left: 600px;
+    }
+
+    .Title{
+        margin-top: 50px;
+    }
+
+    #Menu{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+                            "Menu1 Menu2 Menu3"
+                            "Menu1 Menu2 Menu3"
+                            "Menu1 Menu2 Menu3";
+    }
+
+    .Menu1{
+        grid-area: Menu1;
+    }
+
+    .Menu2{
+        grid-area: Menu2;
+    }
+
+    .Menu3{
+        grid-area: Menu3;
+    }
+    
+    #About-us{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+                            "About-us1 About-us2"
+                            ;
+    }
+    
+    .About-us1{
+        grid-area: About-us1;
+        text-align: center;
+        padding: 120px 100px 0 100px;
+    }
+
+    .About-us2{
+        grid-area: About-us2;
+        margin-right: 20px;
+    }
+
+    .foot1{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        grid-template-areas: 
+                            "footer1 footer2 footer3 footer4"
+                            "footer1 footer2 footer3 footer4";
+    }
+
+    .footer1{
+        margin-top: 50px;
+    }
+
+    .footer2{
+        margin-top: 100px;
+    }
+
+    .footer3{
+        margin-top: 100px;
+    }
+
+    .footer4{
+        margin-top: 100px;
+    }
+
+    .foot2{
+        display: flex; 
+        margin-top: 40px;  
+        justify-content: center;
+    }
+
+    footer{
+        height: 360px;
+    }
+}
